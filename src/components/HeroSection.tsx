@@ -8,9 +8,16 @@ export default function HeroSection() {
 
   return (
     <div className="relative min-h-screen flex flex-col lg:flex-row overflow-hidden">
+      {/* Grote "2" op achtergrond */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
+        <span className="text-[40rem] font-bold text-foreground/5 select-none leading-none">
+          2
+        </span>
+      </div>
+
       {/* P2P Academy - Linkerkant */}
       <div 
-        className="flex-1 relative group"
+        className="flex-1 relative group z-10"
         onMouseEnter={() => setHoveredSide('academy')}
         onMouseLeave={() => setHoveredSide(null)}
       >
@@ -41,11 +48,11 @@ export default function HeroSection() {
       </div>
 
       {/* Divider */}
-      <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-foreground/20 to-transparent hidden lg:block transform -translate-x-1/2" />
+      <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-foreground/20 to-transparent hidden lg:block transform -translate-x-1/2 z-10" />
 
       {/* P2P Solutions - Rechterkant */}
       <div 
-        className="flex-1 relative group"
+        className="flex-1 relative group z-10"
         onMouseEnter={() => setHoveredSide('solutions')}
         onMouseLeave={() => setHoveredSide(null)}
       >
