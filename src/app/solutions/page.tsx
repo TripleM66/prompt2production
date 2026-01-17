@@ -39,7 +39,7 @@ export default function SolutionsPage() {
               It's the problem I specialize in.
             </p>
             <p className="text-xl lg:text-2xl text-foreground/80 mb-8 leading-relaxed">
-              Wanneer je groei sneller gaat dan je platform kan bijhouden, en je engineering team vastloopt in technische schuld, dan is het tijd voor een Interim CTO die het fundament herstelt.
+              Wanneer je groei sneller gaat dan je platform kan bijhouden, en je engineering team vastloopt in technical debt, dan is het tijd voor een Interim CTO die het fundament herstelt.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
