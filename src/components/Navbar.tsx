@@ -63,6 +63,12 @@ export default function Navbar() {
             >
               Over ons
             </Link>
+            <Link 
+              href="/contact" 
+              className="text-foreground hover:text-accent-blue transition-colors duration-200 font-medium focus:outline-none focus:ring-2 focus:ring-accent-blue focus:ring-offset-2 focus:ring-offset-background rounded px-2 py-1"
+            >
+              Contact
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -89,7 +95,7 @@ export default function Navbar() {
         {/* Mobile Menu */}
         <div 
           className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${
-            isMobileMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'
+            isMobileMenuOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
           }`}
         >
           <div className="py-4 space-y-2 border-t border-white/10">
@@ -113,6 +119,13 @@ export default function Navbar() {
               onClick={closeMobileMenu}
             >
               Over ons
+            </Link>
+            <Link 
+              href="/contact" 
+              className="block px-4 py-3 text-foreground hover:bg-accent-blue/10 hover:text-accent-blue transition-colors duration-200 font-medium rounded-lg"
+              onClick={closeMobileMenu}
+            >
+              Contact
             </Link>
           </div>
         </div>
