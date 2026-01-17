@@ -105,7 +105,7 @@ export default function AcademyPage() {
                 <h3 className="text-2xl font-bold text-accent-blue mb-6">
                   {shift.title}
                 </h3>
-                <div className="space-y-4 mb-6">
+                <div className="space-y-4 mb-6 min-h-[140px]">
                   <div className="flex items-start gap-3">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center mt-1">
                       <svg className="w-4 h-4 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">

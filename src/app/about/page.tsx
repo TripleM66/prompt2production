@@ -47,7 +47,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="space-y-4 text-foreground/80 leading-relaxed">
+              <div className="space-y-4 text-foreground/80 leading-relaxed min-h-[320px]">
                 <p>
                   Michel is de Strategic Innovation Catalyst die de 'Innovation Stagnation' doorbreekt. 
                   Als Programmadirecteur Innovatie bij Qbuzz implementeert hij AI niet vanuit PowerPoints, 
@@ -65,7 +65,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="mt-8">
+              <div className="mt-8 min-h-[180px]">
                 <h3 className="text-lg font-bold text-foreground mb-4">Expertise</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
@@ -137,7 +137,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="space-y-4 text-foreground/80 leading-relaxed">
+              <div className="space-y-4 text-foreground/80 leading-relaxed min-h-[320px]">
                 <p>
                   Marcel is Interim CTO voor SaaS Scale-ups die sneller groeien dan hun platform kan bijhouden. 
                   Met 3 volledige end-to-end replatformings op zijn naam, specialiseert hij zich in het oplossen 
@@ -154,7 +154,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="mt-8">
+              <div className="mt-8 min-h-[180px]">
                 <h3 className="text-lg font-bold text-foreground mb-4">Operationele Gebieden</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
