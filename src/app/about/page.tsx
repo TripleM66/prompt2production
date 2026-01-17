@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Footer from '@/components/Footer';
 
 export default function AboutPage() {
@@ -21,6 +22,19 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Michel - The Visionary */}
             <div className="bg-gradient-to-br from-accent-blue/15 via-accent-blue/5 to-transparent border border-accent-blue/30 rounded-2xl p-8 lg:p-12">
+              {/* Profile Image */}
+              <div className="mb-6 flex justify-center">
+                <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-accent-blue/30">
+                  <Image
+                    src="/Images/michel.jpeg"
+                    alt="Michel van der Mark"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+              </div>
+
               <div className="mb-6">
                 <div className="inline-block px-4 py-2 bg-accent-blue/20 rounded-full mb-4">
                   <span className="text-accent-blue font-semibold">The Visionary</span>
@@ -87,6 +101,19 @@ export default function AboutPage() {
 
             {/* Marcel - The Architect */}
             <div className="bg-gradient-to-bl from-accent-orange/15 via-accent-gold/5 to-transparent border border-accent-orange/30 rounded-2xl p-8 lg:p-12">
+              {/* Profile Image */}
+              <div className="mb-6 flex justify-center">
+                <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-accent-orange/30">
+                  <Image
+                    src="/Images/marcel.jpeg"
+                    alt="Marcel Houtzager"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+              </div>
+
               <div className="mb-6">
                 <div className="inline-block px-4 py-2 bg-accent-orange/20 rounded-full mb-4">
                   <span className="text-accent-orange font-semibold">The Architect</span>
