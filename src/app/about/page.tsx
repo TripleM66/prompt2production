@@ -155,7 +155,7 @@ export default function AboutPage() {
               </div>
 
               <div className="mt-8">
-                <h3 className="text-lg font-bold text-foreground mb-4">Operationele Gebieden</h3>
+                <h3 className="text-lg font-bold text-foreground mb-4">Strategische Gebieden</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
                     'Technische Strategie',
