@@ -1,25 +1,37 @@
 export default function MethodSection() {
   const steps = [
     {
-      number: "01",
       title: "PROMPT",
       subtitle: "Het Idee",
       description: "Van visie naar concrete AI-use case. We vertalen jouw bedrijfsdoelen naar haalbare AI-oplossingen.",
-      color: "blue"
+      color: "blue",
+      icon: (
+        <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+        </svg>
+      )
     },
     {
-      number: "02",
       title: "PROTOTYPE",
       subtitle: "De Validatie",
       description: "Razendsnel een werkend prototype bouwen. Testen, leren en itereren zonder grote investeringen.",
-      color: "purple"
+      color: "purple",
+      icon: (
+        <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      )
     },
     {
-      number: "03",
       title: "PRODUCTION",
       subtitle: "De Realisatie",
       description: "Schaalbare enterprise-architectuur met security, compliance en robuuste backends. Klaar voor productie.",
-      color: "orange"
+      color: "orange",
+      icon: (
+        <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+      )
     }
   ];
 
@@ -47,13 +59,13 @@ export default function MethodSection() {
               <div key={index} className="relative">
                 {/* Card */}
                 <div className="bg-surface-darker border border-white/10 rounded-2xl p-8 hover:border-white/20 transition-all duration-300 group">
-                  {/* Number badge */}
-                  <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full mb-6 text-3xl font-bold
+                  {/* Icon badge */}
+                  <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full mb-6
                     ${step.color === 'blue' ? 'bg-accent-blue/20 text-accent-blue' : ''}
                     ${step.color === 'purple' ? 'bg-purple-500/20 text-purple-400' : ''}
                     ${step.color === 'orange' ? 'bg-accent-orange/20 text-accent-orange' : ''}
                   `}>
-                    {step.number}
+                    {step.icon}
                   </div>
 
                   {/* Content */}
