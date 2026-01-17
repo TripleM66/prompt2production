@@ -21,7 +21,7 @@ export default function AboutPage() {
           {/* Partners Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Michel - The Visionary */}
-            <div className="bg-gradient-to-br from-accent-blue/15 via-accent-blue/5 to-transparent border border-accent-blue/30 rounded-2xl p-8 lg:p-12">
+            <div className="bg-gradient-to-br from-accent-blue/15 via-accent-blue/5 to-transparent border border-accent-blue/30 rounded-2xl p-8 lg:p-12 flex flex-col">
               {/* Profile Image */}
               <div className="mb-6 flex justify-center">
                 <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-accent-blue/30">
@@ -47,7 +47,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="space-y-4 text-foreground/80 leading-relaxed min-h-[320px]">
+              <div className="space-y-4 text-foreground/80 leading-relaxed flex-grow">
                 <p>
                   Michel is de Strategic Innovation Catalyst die de 'Innovation Stagnation' doorbreekt. 
                   Als Programmadirecteur Innovatie bij Qbuzz implementeert hij AI niet vanuit PowerPoints, 
@@ -65,7 +65,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="mt-8 min-h-[180px]">
+              <div className="mt-8">
                 <h3 className="text-lg font-bold text-foreground mb-4">Expertise</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
@@ -111,7 +111,7 @@ export default function AboutPage() {
             </div>
 
             {/* Marcel - The Architect */}
-            <div className="bg-gradient-to-bl from-accent-orange/15 via-accent-gold/5 to-transparent border border-accent-orange/30 rounded-2xl p-8 lg:p-12">
+            <div className="bg-gradient-to-bl from-accent-orange/15 via-accent-gold/5 to-transparent border border-accent-orange/30 rounded-2xl p-8 lg:p-12 flex flex-col">
               {/* Profile Image */}
               <div className="mb-6 flex justify-center">
                 <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-accent-orange/30">
@@ -137,7 +137,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="space-y-4 text-foreground/80 leading-relaxed min-h-[320px]">
+              <div className="space-y-4 text-foreground/80 leading-relaxed flex-grow">
                 <p>
                   Marcel is Interim CTO voor SaaS Scale-ups die sneller groeien dan hun platform kan bijhouden. 
                   Met 3 volledige end-to-end replatformings op zijn naam, specialiseert hij zich in het oplossen 
@@ -154,7 +154,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="mt-8 min-h-[180px]">
+              <div className="mt-8">
                 <h3 className="text-lg font-bold text-foreground mb-4">Operationele Gebieden</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
