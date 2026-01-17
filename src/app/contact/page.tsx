@@ -24,7 +24,7 @@ export default function ContactPage() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: 'e8684835-b5a8-4be1-aa0e-a4a1a644d746',
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || '',
           name: formData.name,
           email: formData.email,
           company: formData.company,
