@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Footer from '@/components/Footer';
+import BoardroomFAQ from '@/components/BoardroomFAQ';
 
 export default function AcademyPage() {
   const modules = [
@@ -367,6 +368,9 @@ export default function AcademyPage() {
         </div>
       </section>
 
+      {/* Boardroom FAQ */}
+      <BoardroomFAQ variant="academy" />
+
       {/* CTA Section */}
       <section id="contact" className="py-20 lg:py-32 bg-gradient-to-br from-accent-blue/15 via-accent-blue/5 to-transparent">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
@@ -376,15 +380,20 @@ export default function AcademyPage() {
           <p className="text-xl text-foreground/80 mb-8">
             Schrijf je in voor de eerstvolgende ronde of boek een in-company sessie.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col gap-4 justify-center max-w-md mx-auto">
             <a
               href="mailto:michel@prompt2production.nl"
-              className="inline-flex items-center justify-center px-8 py-4 bg-accent-blue text-background font-semibold rounded-full hover:bg-accent-blue/90 transition-all duration-300 shadow-[0_0_20px_rgba(0,102,255,0.4)] hover:shadow-[0_0_30px_rgba(0,102,255,0.6)] focus:outline-none focus:ring-2 focus:ring-accent-blue focus:ring-offset-2 focus:ring-offset-background"
+              className="group"
             >
-              <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              Neem contact op
+              <div className="inline-flex flex-col items-center justify-center px-8 py-4 bg-accent-blue text-background font-semibold rounded-full hover:bg-accent-blue/90 transition-all duration-300 shadow-[0_0_20px_rgba(0,102,255,0.4)] hover:shadow-[0_0_30px_rgba(0,102,255,0.6)] focus:outline-none focus:ring-2 focus:ring-accent-blue focus:ring-offset-2 focus:ring-offset-background w-full">
+                <span className="flex items-center">
+                  <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  Neem contact op
+                </span>
+                <span className="text-sm opacity-90 mt-1">Start de innovatie-motor (P2P Academy)</span>
+              </div>
             </a>
             <Link
               href="/"
