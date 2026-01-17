@@ -8,6 +8,7 @@ export default function ContactPage() {
     name: '',
     email: '',
     company: '',
+    phone: '',
     message: ''
   });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -27,6 +28,7 @@ export default function ContactPage() {
           name: formData.name,
           email: formData.email,
           company: formData.company,
+          phone: formData.phone,
           message: formData.message,
           subject: `Nieuw contactformulier bericht van ${formData.name}`,
         }),
@@ -36,7 +38,7 @@ export default function ContactPage() {
 
       if (result.success) {
         setStatus('success');
-        setFormData({ name: '', email: '', company: '', message: '' });
+        setFormData({ name: '', email: '', company: '', phone: '', message: '' });
       } else {
         setStatus('error');
       }
@@ -163,6 +165,21 @@ export default function ContactPage() {
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-surface-dark border border-foreground/20 rounded-lg text-foreground placeholder-foreground/50 focus:outline-none focus:ring-2 focus:ring-accent-blue focus:border-transparent transition-all"
                     placeholder="Je organisatie"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
+                    Telefoonnummer
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 bg-surface-dark border border-foreground/20 rounded-lg text-foreground placeholder-foreground/50 focus:outline-none focus:ring-2 focus:ring-accent-blue focus:border-transparent transition-all"
+                    placeholder="+31 6 12345678"
                   />
                 </div>
 
