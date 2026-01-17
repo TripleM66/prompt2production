@@ -35,13 +35,19 @@ export default function AboutPage() {
 
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
-                  Michel is de drijvende kracht achter snelle AI-innovatie. Met zijn achtergrond in 
-                  product development en een passie voor het democratiseren van technologie, helpt hij 
-                  professionals en teams om zelf te bouwen met AI.
+                  Michel is de Strategic Innovation Catalyst die de 'Innovation Stagnation' doorbreekt. 
+                  Als Programmadirecteur Innovatie bij Qbuzz implementeert hij AI niet vanuit PowerPoints, 
+                  maar vanuit de praktijk in complexe, corporate omgevingen.
                 </p>
                 <p>
-                  Zijn missie: iedereen leren 'vibecoden' - het bouwen van werkende prototypes in uren 
-                  in plaats van maanden, zonder traditionele programmeerkennis.
+                  Hij transformeert organisaties van 'denkers' naar 'makers' door business-teams te empoweren 
+                  de IT-backlog te omzeilen via Vibecoding. Zijn methodiek: <strong className="text-accent-blue">Rapid Validation</strong> - 
+                  van business-probleem naar werkend prototype in uren, niet in maanden.
+                </p>
+                <p>
+                  Michel is geen theoretische consultant, maar een <strong className="text-accent-blue">Practicing Leader</strong> die 
+                  zelf de tools gebruikt om verandering te forceren. Hij biedt de 'Vibe' (snelheid en creativiteit) 
+                  die essentieel is voordat Marcel's 'Production' (architectuur) kan beginnen.
                 </p>
               </div>
 
@@ -49,12 +55,12 @@ export default function AboutPage() {
                 <h3 className="text-lg font-bold text-foreground mb-4">Expertise</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    'Rapid Prototyping',
-                    'AI-Assisted Development',
-                    'Product Innovation',
-                    'Workshop Facilitation',
-                    'No-Code/Low-Code',
-                    'Vibecoding'
+                    'Strategic Innovation',
+                    'Rapid Validation',
+                    'Vibecoding',
+                    'AI Democratization',
+                    'Corporate AI Implementation',
+                    'Team Transformation'
                   ].map((skill, index) => (
                     <span
                       key={index}
