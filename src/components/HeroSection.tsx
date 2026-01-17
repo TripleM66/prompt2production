@@ -60,7 +60,7 @@ export default function HeroSection() {
               <span className="text-accent-orange">Bouw voor de Toekomst</span>
             </h1>
             <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto">
-              Schaalbare enterprise-architectuur en veilige AI-implementaties door ervaren CTO's.
+              Schaalbare enterprise-architectuur en veilige AI-implementaties door een ervaren CTO.
             </p>
             <Link 
               href="/solutions"
