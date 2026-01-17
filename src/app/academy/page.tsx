@@ -17,7 +17,7 @@ export default function AcademyPage() {
     {
       number: "03",
       title: "The Build (Van Idee naar App)",
-      description: "Hands-on bouwen: Aan het eind van de dag heb je je eigen werkende applicatie live staan. Iteratief verbeteren: Hoe 'vibe' je door naar versie 2.0?"
+      description: "Hands-on bouwen: Uiteindelijk heb je je eigen werkende applicatie live staan. Iteratief verbeteren: Hoe 'vibe' je door naar versie 2.0?"
     },
     {
       number: "04",
