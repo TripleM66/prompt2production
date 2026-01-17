@@ -67,7 +67,7 @@ export default function AboutPage() {
 
               <div className="mt-8">
                 <h3 className="text-lg font-bold text-foreground mb-4">Expertise</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="flex flex-wrap gap-2">
                   {[
                     'Strategic Innovation',
                     'Rapid Validation',
@@ -78,7 +78,7 @@ export default function AboutPage() {
                   ].map((skill, index) => (
                     <span
                       key={index}
-                      className="px-4 py-2 bg-accent-blue/30 text-accent-blue rounded-full text-base font-semibold border border-accent-blue/40 text-center"
+                      className="px-3 py-1.5 bg-accent-blue/20 text-accent-blue rounded-full text-sm font-medium border border-accent-blue/30"
                     >
                       {skill}
                     </span>
@@ -156,7 +156,7 @@ export default function AboutPage() {
 
               <div className="mt-8">
                 <h3 className="text-lg font-bold text-foreground mb-4">Operationele Gebieden</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="flex flex-wrap gap-2">
                   {[
                     'Technische Strategie',
                     'Product/Platform Besluitvorming',
@@ -167,7 +167,7 @@ export default function AboutPage() {
                   ].map((skill, index) => (
                     <span
                       key={index}
-                      className="px-4 py-2 bg-accent-orange/30 text-accent-orange rounded-full text-base font-semibold border border-accent-orange/40 text-center"
+                      className="px-3 py-1.5 bg-accent-orange/20 text-accent-orange rounded-full text-sm font-medium border border-accent-orange/30"
                     >
                       {skill}
                     </span>
