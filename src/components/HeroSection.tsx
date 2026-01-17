@@ -1,0 +1,83 @@
+'use client';
+
+import { useState } from 'react';
+import Link from 'next/link';
+
+export default function HeroSection() {
+  const [hoveredSide, setHoveredSide] = useState<'academy' | 'solutions' | null>(null);
+
+  return (
+    <div className="relative min-h-screen flex flex-col lg:flex-row overflow-hidden">
+      {/* P2P Academy - Linkerkant */}
+      <div 
+        className={`flex-1 relative transition-all duration-500 ease-in-out ${
+          hoveredSide === 'academy' ? 'lg:flex-[1.2]' : hoveredSide === 'solutions' ? 'lg:flex-[0.8]' : 'lg:flex-1'
+        }`}
+        onMouseEnter={() => setHoveredSide('academy')}
+        onMouseLeave={() => setHoveredSide(null)}
+      >
+        {/* Blauwe gloed achtergrond */}
+        <div className="absolute inset-0 bg-gradient-to-br from-accent-blue/20 via-accent-blue/10 to-transparent" />
+        
+        {/* Content */}
+        <div className="relative h-full flex flex-col justify-center items-center text-center px-8 lg:px-16 py-20 lg:py-32">
+          <div className="max-w-2xl mx-auto">
+            <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold text-foreground mb-6 leading-tight">
+              The Prompt:<br />
+              <span className="text-accent-blue">Ontketen Innovatie</span>
+            </h1>
+            <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto">
+              Leer vibecoding en bouw razendsnel je eigen AI-tools.
+            </p>
+            <Link 
+              href="/academy"
+              className="inline-flex items-center px-8 py-4 border-2 border-accent-blue text-accent-blue font-semibold rounded-full hover:bg-accent-blue hover:text-background transition-all duration-300 transform hover:scale-105 animate-glow-blue"
+            >
+              Naar de Academy
+              <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Divider */}
+      <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-foreground/20 to-transparent lg:left-1/2 lg:transform lg:-translate-x-1/2" />
+
+      {/* P2P Solutions - Rechterkant */}
+      <div 
+        className={`flex-1 relative transition-all duration-500 ease-in-out ${
+          hoveredSide === 'solutions' ? 'lg:flex-[1.2]' : hoveredSide === 'academy' ? 'lg:flex-[0.8]' : 'lg:flex-1'
+        }`}
+        onMouseEnter={() => setHoveredSide('solutions')}
+        onMouseLeave={() => setHoveredSide(null)}
+      >
+        {/* Oranje/metalen gloed achtergrond */}
+        <div className="absolute inset-0 bg-gradient-to-bl from-accent-orange/20 via-accent-gold/10 to-transparent" />
+        
+        {/* Content */}
+        <div className="relative h-full flex flex-col justify-center items-center text-center px-8 lg:px-16 py-20 lg:py-32">
+          <div className="max-w-2xl mx-auto">
+            <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold text-foreground mb-6 leading-tight">
+              The Production:<br />
+              <span className="text-accent-orange">Bouw voor de Toekomst</span>
+            </h1>
+            <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto">
+              Schaalbare enterprise-architectuur en veilige AI-implementaties door ervaren CTO's.
+            </p>
+            <Link 
+              href="/solutions"
+              className="inline-flex items-center px-8 py-4 border-2 border-accent-orange text-accent-orange font-semibold rounded-full hover:bg-accent-orange hover:text-background transition-all duration-300 transform hover:scale-105 animate-glow-orange"
+            >
+              Ontdek Solutions
+              <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
