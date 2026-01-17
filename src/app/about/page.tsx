@@ -156,7 +156,11 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-5xl mb-4">⚡</div>
+              <div className="w-16 h-16 mx-auto mb-4 bg-accent-blue/20 rounded-full flex items-center justify-center">
+                <svg className="w-8 h-8 text-accent-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
               <h3 className="text-2xl font-bold text-foreground mb-3">Snelheid</h3>
               <p className="text-foreground/70">
                 Michel zorgt voor razendsnelle prototypes en validatie van ideeën. Van concept naar werkend product in dagen.
@@ -164,7 +168,11 @@ export default function AboutPage() {
             </div>
 
             <div className="text-center">
-              <div className="text-5xl mb-4">🔄</div>
+              <div className="w-16 h-16 mx-auto mb-4 bg-purple-500/20 rounded-full flex items-center justify-center">
+                <svg className="w-8 h-8 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+              </div>
               <h3 className="text-2xl font-bold text-foreground mb-3">Synergie</h3>
               <p className="text-foreground/70">
                 Samen bieden we het complete plaatje: van eerste idee tot schaalbare enterprise-oplossing.
@@ -172,7 +180,11 @@ export default function AboutPage() {
             </div>
 
             <div className="text-center">
-              <div className="text-5xl mb-4">🏗️</div>
+              <div className="w-16 h-16 mx-auto mb-4 bg-accent-orange/20 rounded-full flex items-center justify-center">
+                <svg className="w-8 h-8 text-accent-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
               <h3 className="text-2xl font-bold text-foreground mb-3">Degelijkheid</h3>
               <p className="text-foreground/70">
                 Marcel bouwt de fundering: veilig, schaalbaar en compliant. Enterprise-ready vanaf dag één.

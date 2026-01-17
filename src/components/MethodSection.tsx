@@ -5,7 +5,6 @@ export default function MethodSection() {
       title: "PROMPT",
       subtitle: "Het Idee",
       description: "Van visie naar concrete AI-use case. We vertalen jouw bedrijfsdoelen naar haalbare AI-oplossingen.",
-      icon: "💡",
       color: "blue"
     },
     {
@@ -13,7 +12,6 @@ export default function MethodSection() {
       title: "PROTOTYPE",
       subtitle: "De Validatie",
       description: "Razendsnel een werkend prototype bouwen. Testen, leren en itereren zonder grote investeringen.",
-      icon: "⚡",
       color: "purple"
     },
     {
@@ -21,7 +19,6 @@ export default function MethodSection() {
       title: "PRODUCTION",
       subtitle: "De Realisatie",
       description: "Schaalbare enterprise-architectuur met security, compliance en robuuste backends. Klaar voor productie.",
-      icon: "🏗️",
       color: "orange"
     }
   ];
@@ -51,17 +48,12 @@ export default function MethodSection() {
                 {/* Card */}
                 <div className="bg-surface-darker border border-white/10 rounded-2xl p-8 hover:border-white/20 transition-all duration-300 group">
                   {/* Number badge */}
-                  <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full mb-6 text-2xl font-bold
+                  <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full mb-6 text-3xl font-bold
                     ${step.color === 'blue' ? 'bg-accent-blue/20 text-accent-blue' : ''}
                     ${step.color === 'purple' ? 'bg-purple-500/20 text-purple-400' : ''}
                     ${step.color === 'orange' ? 'bg-accent-orange/20 text-accent-orange' : ''}
                   `}>
                     {step.number}
-                  </div>
-
-                  {/* Icon */}
-                  <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                    {step.icon}
                   </div>
 
                   {/* Content */}

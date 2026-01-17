@@ -12,7 +12,6 @@ export default function SolutionsPage() {
         "Architectuur review & optimalisatie",
         "Concrete aanbevelingen & roadmap"
       ],
-      icon: "🔒",
       color: "orange"
     },
     {
@@ -24,7 +23,6 @@ export default function SolutionsPage() {
         "API integraties & orchestratie",
         "Monitoring & observability"
       ],
-      icon: "🤖",
       color: "gold"
     },
     {
@@ -36,7 +34,6 @@ export default function SolutionsPage() {
         "Vendor & technology selectie",
         "Hands-on architectuur werk"
       ],
-      icon: "👔",
       color: "orange"
     }
   ];
@@ -44,23 +41,19 @@ export default function SolutionsPage() {
   const expertise = [
     {
       title: "20+ jaar ervaring",
-      description: "Bewezen track record in enterprise software development en architectuur.",
-      icon: "📊"
+      description: "Bewezen track record in enterprise software development en architectuur."
     },
     {
       title: "Security-first",
-      description: "GDPR-compliant, veilige implementaties die voldoen aan enterprise-eisen.",
-      icon: "🛡️"
+      description: "GDPR-compliant, veilige implementaties die voldoen aan enterprise-eisen."
     },
     {
       title: "Schaalbaar",
-      description: "Architecturen die meegroeien van prototype naar miljoenen gebruikers.",
-      icon: "📈"
+      description: "Architecturen die meegroeien van prototype naar miljoenen gebruikers."
     },
     {
       title: "Python Expert",
-      description: "Diepgaande kennis van moderne Python ecosysteem en best practices.",
-      icon: "🐍"
+      description: "Diepgaande kennis van moderne Python ecosysteem en best practices."
     }
   ];
 
@@ -116,8 +109,8 @@ export default function SolutionsPage() {
                 key={index}
                 className="text-center group"
               >
-                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                  {item.icon}
+                <div className="w-16 h-16 mx-auto mb-4 bg-accent-orange/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-8 h-8 bg-accent-orange/40 rounded-full"></div>
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-3">
                   {item.title}
@@ -149,9 +142,6 @@ export default function SolutionsPage() {
                 key={index}
                 className="bg-surface-dark border border-white/10 rounded-2xl p-8 hover:border-accent-orange/50 transition-all duration-300 group"
               >
-                <div className="text-5xl mb-6 group-hover:scale-110 transition-transform duration-300">
-                  {service.icon}
-                </div>
                 <h3 className="text-2xl font-bold text-foreground mb-3">
                   {service.title}
                 </h3>
