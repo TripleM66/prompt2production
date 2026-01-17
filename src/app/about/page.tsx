@@ -139,9 +139,8 @@ export default function AboutPage() {
 
               <div className="space-y-4 text-foreground/80 leading-relaxed flex-grow">
                 <p>
-                  Marcel is Interim CTO voor SaaS Scale-ups die sneller groeien dan hun platform kan bijhouden. 
-                  Met 3 volledige end-to-end replatformings op zijn naam, specialiseert hij zich in het oplossen 
-                  van het probleem waarbij engineering teams vastlopen in technische schuld.
+                  Wanneer je groei sneller gaat dan je platform kan bijhouden, en je engineering team vastloopt 
+                  in technical debt, dan is het tijd voor een Interim CTO die het fundament herstelt.
                 </p>
                 <p>
                   Zijn unieke kracht: de combinatie van een wetenschappelijke basis (rigoureus systeemdenken) 
