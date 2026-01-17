@@ -95,26 +95,31 @@ export default function AboutPage() {
 
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
-                  Marcel brengt meer dan 20 jaar enterprise software-ervaring mee. Als ervaren CTO en 
-                  architect zorgt hij ervoor dat AI-prototypes transformeren naar robuuste, schaalbare 
-                  en veilige productie-systemen.
+                  Marcel is Interim CTO voor SaaS Scale-ups die sneller groeien dan hun platform kan bijhouden. 
+                  Met 3 volledige end-to-end replatformings op zijn naam, specialiseert hij zich in het oplossen 
+                  van het probleem waarbij engineering teams vastlopen in technische schuld.
                 </p>
                 <p>
-                  Zijn focus: enterprise-grade architectuur, security, compliance en het bouwen van 
-                  systemen die meegroeien van startup tot miljoenen gebruikers.
+                  Zijn unieke kracht: de combinatie van een wetenschappelijke basis (rigoureus systeemdenken) 
+                  met een carrière in film en theater (heldere narratieven en alignment). Dit stelt hem in staat 
+                  complexe technische beslissingen te vertalen naar strategische business-keuzes.
+                </p>
+                <p>
+                  Hij herstelt het vertrouwen tussen boardroom en tech-teams door gebruik te maken van systemen 
+                  zoals EOS (Entrepreneurial Operating System) om tech, product en strategie uit te lijnen.
                 </p>
               </div>
 
               <div className="mt-8">
-                <h3 className="text-lg font-bold text-foreground mb-4">Expertise</h3>
+                <h3 className="text-lg font-bold text-foreground mb-4">Operationele Gebieden</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    'Enterprise Architecture',
-                    'Python Backend Development',
-                    'AI Security & Compliance',
-                    'GDPR Implementation',
-                    'Scalable Systems',
-                    'CTO Advisory'
+                    'Technische Strategie',
+                    'Product/Platform Besluitvorming',
+                    'Procesverbetering (EOS)',
+                    'Executive Problem Solving',
+                    'End-to-End Replatforming',
+                    'AI Security & Compliance'
                   ].map((skill, index) => (
                     <span
                       key={index}
