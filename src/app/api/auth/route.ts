@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 
 // Wachtwoord voor concept website
-const CONCEPT_PASSWORD = 'p2p2026';
+const CONCEPT_PASSWORD = 'P2P2026!';
 
 export async function POST(request: Request) {
   try {
