@@ -153,14 +153,25 @@ export default function AcademyPage() {
             
             <div className="space-y-6 text-lg text-foreground/80 leading-relaxed">
               <p>
-                Als Programmadirecteur Innovatie bij Qbuzz begrijpt Michel de complexiteit van grote organisaties. Hij implementeert AI niet vanuit een PowerPoint, maar vanuit de praktijk.
+                In mijn trainingen sla ik de brug tussen het ambacht van vroeger en de snelheid van nu. Ik leer teams en individuen hoe zij AI-assistenten en AI-agents kunnen aansturen, zodat ze zelfstandig applicaties en oplossingen bouwen. Dit is nadrukkelijk niet alleen voor ontwikkelaars, maar juist voor mensen zonder programmeerervaring die sneller willen bouwen, testen en verbeteren.
               </p>
               <p>
-                Michel biedt de <strong className="text-accent-blue">'Vibe'</strong> - de snelheid en creativiteit die essentieel is om ideeën te valideren. Hij transformeert teams van passieve 'denkers' naar actieve 'makers' die zelf prototypes bouwen.
+                Door mijn ervaring als internationaal woordvoerder en spreker op grote congressen ben ik in staat om:
               </p>
-              <p>
-                Zijn methodiek: <strong className="text-accent-blue">Rapid Validation</strong>. Van business-probleem naar werkend prototype in uren, niet in maanden. Zodra de vibe is gevalideerd, nemen we het mee naar Marcel's architectuur voor productie-ready implementatie.
-              </p>
+              <ul className="space-y-3 ml-6">
+                <li className="flex items-start gap-3">
+                  <span className="text-accent-blue mt-1">•</span>
+                  <span><strong className="text-accent-blue">Complexe materie te versimpelen:</strong> Ik vertaal AI naar concrete stappen die direct bedrijfswaarde opleveren.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-accent-blue mt-1">•</span>
+                  <span><strong className="text-accent-blue">Weerstand om te buigen naar enthousiasme:</strong> Ik herken de vragen die leven bij zowel de IT-afdeling als de directie, en ik verbind die perspectieven.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-accent-blue mt-1">•</span>
+                  <span><strong className="text-accent-blue">Resultaatgerichte trainingen te geven:</strong> Dankzij mijn ervaring voor grote, internationale groepen zijn mijn trainingen energiek, helder en didactisch sterk.</span>
+                </li>
+              </ul>
             </div>
 
             <div className="mt-8 p-6 bg-accent-blue/10 rounded-xl border border-accent-blue/20">
