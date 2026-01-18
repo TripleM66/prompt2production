@@ -6,12 +6,12 @@ export default function AcademyPage() {
   const modules = [
     {
       number: "01",
-      title: "De AI-Mindset & Strategie",
+      title: "De AI-mindset & strategie",
       description: "Hoe herken je processen die schreeuwen om een AI-oplossing? Van business-probleem naar een haarscherpe 'Prompt-strategie'."
     },
     {
       number: "02",
-      title: "Vibecoding Tools & Technieken",
+      title: "Vibecoding tools & technieken",
       description: "Werken met de modernste bouw-tools (zoals Replit, Bolt, Cursor). Hoe je AI aanstuurt om volledige applicaties te schrijven, te testen en te deployen."
     },
     {
@@ -28,19 +28,19 @@ export default function AcademyPage() {
 
   const tenXShifts = [
     {
-      title: "Van Weken naar Uren",
+      title: "Van weken naar uren",
       before: "6 weken wachten op IT",
       after: "4 uur bouwen met AI",
       impact: "10x sneller valideren"
     },
     {
-      title: "Van Denkers naar Makers",
+      title: "Van denkers naar makers",
       before: "Eindeloze requirement docs",
       after: "Werkende prototypes",
       impact: "10x meer ownership"
     },
     {
-      title: "Van Afhankelijk naar Autonoom",
+      title: "Van afhankelijk naar autonoom",
       before: "Wachten op developers",
       after: "Zelf bouwen en itereren",
       impact: "10x meer controle"

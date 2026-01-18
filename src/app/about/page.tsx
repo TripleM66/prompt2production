@@ -157,8 +157,8 @@ export default function AboutPage() {
                 <h3 className="text-lg font-bold text-foreground mb-4">Strategische Gebieden</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    'Technische Strategie',
-                    'Product/Platform Besluitvorming',
+                    'Technische strategie',
+                    'Product/platform besluitvorming',
                     'Procesverbetering (EOS)',
                     'Executive Problem Solving',
                     'End-to-End Replatforming',

@@ -5,11 +5,11 @@ import BoardroomFAQ from '@/components/BoardroomFAQ';
 export default function SolutionsPage() {
   const operationalAreas = [
     {
-      title: "Technische Strategie",
+      title: "Technische strategie",
       description: "Van tech-stack keuzes tot architectuur roadmaps die business-doelen ondersteunen."
     },
     {
-      title: "Product/Platform Besluitvorming",
+      title: "Product/platform besluitvorming",
       description: "Data-gedreven beslissingen over build vs buy, replatforming en schaalbaarheid."
     },
     {
