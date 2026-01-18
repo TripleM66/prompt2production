@@ -494,9 +494,6 @@ export default function AcademyPage() {
         </div>
       </section>
 
-      {/* Boardroom FAQ */}
-      <BoardroomFAQ variant="academy" />
-
       {/* CTA Section */}
       <section id="contact" className="py-20 lg:py-32 bg-gradient-to-br from-accent-blue/15 via-accent-blue/5 to-transparent">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center">

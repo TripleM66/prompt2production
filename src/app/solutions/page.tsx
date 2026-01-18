@@ -401,9 +401,6 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      {/* Boardroom FAQ */}
-      <BoardroomFAQ variant="solutions" />
-
       {/* CTA Section */}
       <section id="contact" className="py-20 lg:py-32 bg-gradient-to-bl from-accent-orange/15 via-accent-gold/5 to-transparent">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center">

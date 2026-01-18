@@ -64,6 +64,12 @@ export default function Navbar() {
               Over ons
             </Link>
             <Link 
+              href="/faq" 
+              className="text-foreground hover:text-foreground/70 transition-colors duration-200 font-medium focus:outline-none focus:ring-2 focus:ring-foreground/50 focus:ring-offset-2 focus:ring-offset-background rounded px-2 py-1"
+            >
+              FAQ
+            </Link>
+            <Link 
               href="/contact" 
               className="text-foreground hover:text-accent-blue transition-colors duration-200 font-medium focus:outline-none focus:ring-2 focus:ring-accent-blue focus:ring-offset-2 focus:ring-offset-background rounded px-2 py-1"
             >
@@ -119,6 +125,13 @@ export default function Navbar() {
               onClick={closeMobileMenu}
             >
               Over ons
+            </Link>
+            <Link 
+              href="/faq" 
+              className="block px-4 py-3 text-foreground hover:bg-white/5 hover:text-foreground/70 transition-colors duration-200 font-medium rounded-lg"
+              onClick={closeMobileMenu}
+            >
+              FAQ
             </Link>
             <Link 
               href="/contact" 
