@@ -354,69 +354,6 @@ export default function AcademyPage() {
         </div>
       </section>
 
-      {/* Productionize Your Vibe */}
-      <section className="py-20 lg:py-32 bg-gradient-to-br from-accent-orange/10 via-background to-background border-y border-accent-orange/20">
-        <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
-          <div className="bg-surface-dark border-2 border-accent-orange/40 rounded-3xl p-8 lg:p-12 shadow-[0_0_40px_rgba(255,107,53,0.2)]">
-            <div className="text-center mb-8">
-              <div className="inline-block px-4 py-2 bg-accent-orange/20 rounded-full mb-4">
-                <span className="text-accent-orange font-semibold">Van Prototype naar Productie</span>
-              </div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-                Productionize Your Vibe
-              </h2>
-              <p className="text-xl text-foreground/80 leading-relaxed max-w-3xl mx-auto">
-                Heb je een werkend prototype gebouwd tijdens de Academy? Laat Marcel het professioneel opschalen naar een enterprise-ready platform met veilige architectuur en AI Act compliance.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 bg-accent-orange/20 rounded-full flex items-center justify-center">
-                  <svg className="w-8 h-8 text-accent-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-foreground mb-2">Security & Compliance</h3>
-                <p className="text-foreground/70 text-sm">Enterprise-grade beveiliging en AI Act compliant</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 bg-accent-orange/20 rounded-full flex items-center justify-center">
-                  <svg className="w-8 h-8 text-accent-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-foreground mb-2">Schaalbaarheid</h3>
-                <p className="text-foreground/70 text-sm">Robuuste architectuur voor groei</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 bg-accent-orange/20 rounded-full flex items-center justify-center">
-                  <svg className="w-8 h-8 text-accent-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-foreground mb-2">Documentatie</h3>
-                <p className="text-foreground/70 text-sm">Volledige technische documentatie en overdracht</p>
-              </div>
-            </div>
-
-            <div className="text-center pt-6 border-t border-white/10">
-              <Link
-                href="/solutions"
-                className="inline-flex items-center px-8 py-4 bg-accent-orange text-background font-semibold rounded-full hover:bg-accent-orange/90 transition-all duration-300 shadow-[0_0_20px_rgba(255,107,53,0.4)] hover:shadow-[0_0_30px_rgba(255,107,53,0.6)] focus:outline-none focus:ring-2 focus:ring-accent-orange focus:ring-offset-2 focus:ring-offset-surface-dark"
-              >
-                Bespreek je prototype met Marcel
-                <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Formaten */}
       <section className="py-20 lg:py-32 bg-background">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
@@ -489,6 +426,69 @@ export default function AcademyPage() {
                   <span className="text-foreground/80">Follow-up begeleiding</span>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Productionize Your Vibe */}
+      <section className="py-20 lg:py-32 bg-gradient-to-br from-accent-orange/10 via-background to-background border-y border-accent-orange/20">
+        <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="bg-surface-dark border-2 border-accent-orange/40 rounded-3xl p-8 lg:p-12 shadow-[0_0_40px_rgba(255,107,53,0.2)]">
+            <div className="text-center mb-8">
+              <div className="inline-block px-4 py-2 bg-accent-orange/20 rounded-full mb-4">
+                <span className="text-accent-orange font-semibold">Van Prototype naar Productie</span>
+              </div>
+              <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+                Productionize Your Vibe
+              </h2>
+              <p className="text-xl text-foreground/80 leading-relaxed max-w-3xl mx-auto">
+                Heb je een werkend prototype gebouwd tijdens de Academy? Laat Marcel het professioneel opschalen naar een enterprise-ready platform met veilige architectuur en AI Act compliance.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-accent-orange/20 rounded-full flex items-center justify-center">
+                  <svg className="w-8 h-8 text-accent-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-bold text-foreground mb-2">Security & Compliance</h3>
+                <p className="text-foreground/70 text-sm">Enterprise-grade beveiliging en AI Act compliant</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-accent-orange/20 rounded-full flex items-center justify-center">
+                  <svg className="w-8 h-8 text-accent-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-bold text-foreground mb-2">Schaalbaarheid</h3>
+                <p className="text-foreground/70 text-sm">Robuuste architectuur voor groei</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-accent-orange/20 rounded-full flex items-center justify-center">
+                  <svg className="w-8 h-8 text-accent-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-bold text-foreground mb-2">Documentatie</h3>
+                <p className="text-foreground/70 text-sm">Volledige technische documentatie en overdracht</p>
+              </div>
+            </div>
+
+            <div className="text-center pt-6 border-t border-white/10">
+              <Link
+                href="/solutions"
+                className="inline-flex items-center px-8 py-4 bg-accent-orange text-background font-semibold rounded-full hover:bg-accent-orange/90 transition-all duration-300 shadow-[0_0_20px_rgba(255,107,53,0.4)] hover:shadow-[0_0_30px_rgba(255,107,53,0.6)] focus:outline-none focus:ring-2 focus:ring-accent-orange focus:ring-offset-2 focus:ring-offset-surface-dark"
+              >
+                Bespreek je prototype met Marcel
+                <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </Link>
             </div>
           </div>
         </div>

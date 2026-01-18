@@ -303,6 +303,41 @@ export default function SolutionsPage() {
         </div>
       </section>
 
+      {/* Proces */}
+      <section className="py-20 lg:py-32 bg-surface-dark">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
+              Mijn Aanpak
+            </h2>
+            <p className="text-xl text-foreground/70">
+              Gestructureerd, transparant en resultaatgericht
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              { step: "1", title: "Discovery & Diagnose", desc: "Grondige analyse van je huidige situatie, tech-stack en team-dynamiek" },
+              { step: "2", title: "Strategie & Alignment", desc: "EOS-implementatie om tech, product en business te aligneren" },
+              { step: "3", title: "Executie & Transformatie", desc: "Hands-on implementatie met continue communicatie naar stakeholders" },
+              { step: "4", title: "Overdracht & Borging", desc: "Knowledge transfer en borging van nieuwe werkwijzen in je organisatie" }
+            ].map((item, index) => (
+              <div key={index} className="text-center">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent-orange/20 text-accent-orange text-2xl font-bold mb-4">
+                  {item.step}
+                </div>
+                <h3 className="text-xl font-bold text-foreground mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-foreground/70 text-sm">
+                  {item.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Start with the Vibe - Link naar Academy */}
       <section className="py-20 lg:py-32 bg-gradient-to-br from-accent-blue/10 via-background to-background border-y border-accent-blue/20">
         <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
@@ -362,41 +397,6 @@ export default function SolutionsPage() {
                 </svg>
               </Link>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Proces */}
-      <section className="py-20 lg:py-32 bg-surface-dark">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
-              Mijn Aanpak
-            </h2>
-            <p className="text-xl text-foreground/70">
-              Gestructureerd, transparant en resultaatgericht
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { step: "1", title: "Discovery & Diagnose", desc: "Grondige analyse van je huidige situatie, tech-stack en team-dynamiek" },
-              { step: "2", title: "Strategie & Alignment", desc: "EOS-implementatie om tech, product en business te aligneren" },
-              { step: "3", title: "Executie & Transformatie", desc: "Hands-on implementatie met continue communicatie naar stakeholders" },
-              { step: "4", title: "Overdracht & Borging", desc: "Knowledge transfer en borging van nieuwe werkwijzen in je organisatie" }
-            ].map((item, index) => (
-              <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent-orange/20 text-accent-orange text-2xl font-bold mb-4">
-                  {item.step}
-                </div>
-                <h3 className="text-xl font-bold text-foreground mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-foreground/70 text-sm">
-                  {item.desc}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
