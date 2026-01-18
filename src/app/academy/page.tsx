@@ -170,8 +170,55 @@ export default function AcademyPage() {
         </div>
       </section>
 
-      {/* The 10x Shift */}
+      {/* Bewezen Expertise */}
       <section className="py-20 lg:py-32 bg-background">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
+              Bewezen Expertise
+            </h2>
+            <p className="text-xl text-foreground/70">
+              Praktijkervaring uit complexe corporate omgevingen
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+            {[
+              {
+                title: "Programmadirecteur Innovatie",
+                description: "Bij Qbuzz implementeer ik AI niet vanuit PowerPoints, maar vanuit de praktijk in een complexe corporate omgeving."
+              },
+              {
+                title: "Internationaal Spreker",
+                description: "Ervaring als woordvoerder op grote congressen en het vertalen van complexe materie naar concrete stappen."
+              },
+              {
+                title: "AI Democratization",
+                description: "Ik empower business-teams om zelf te bouwen, zonder afhankelijkheid van de IT-backlog."
+              },
+              {
+                title: "Rapid Validation",
+                description: "Van business-probleem naar werkend prototype in uren, niet in maanden. Snelheid zonder kwaliteitsverlies."
+              }
+            ].map((area, index) => (
+              <div
+                key={index}
+                className="bg-surface-dark border border-white/10 rounded-2xl p-6 hover:border-accent-blue/50 transition-all duration-300"
+              >
+                <h3 className="text-xl font-bold text-foreground mb-3">
+                  {area.title}
+                </h3>
+                <p className="text-foreground/70 text-sm leading-relaxed">
+                  {area.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* The 10x Shift */}
+      <section className="py-20 lg:py-32 bg-surface-dark">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
