@@ -89,60 +89,6 @@ export default function AcademyPage() {
         </div>
       </section>
 
-      {/* The 10x Shift */}
-      <section className="py-20 lg:py-32 bg-surface-dark">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
-              The 10x Shift
-            </h2>
-            <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
-              Hoe teams door AI-adoptie hun productiviteit verveelvoudigen
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {tenXShifts.map((shift, index) => (
-              <div
-                key={index}
-                className="bg-background border border-accent-blue/30 rounded-2xl p-8 hover:border-accent-blue/50 transition-all duration-300 flex flex-col"
-              >
-                <h3 className="text-2xl font-bold text-accent-blue mb-6">
-                  {shift.title}
-                </h3>
-                <div className="space-y-4 mb-6 flex-grow">
-                  <div className="flex items-start gap-3">
-                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center mt-1">
-                      <svg className="w-4 h-4 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="text-sm text-foreground/60 font-medium">Voorheen</p>
-                      <p className="text-foreground/80">{shift.before}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-accent-blue/20 flex items-center justify-center mt-1">
-                      <svg className="w-4 h-4 text-accent-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="text-sm text-foreground/60 font-medium">Nu</p>
-                      <p className="text-foreground/80">{shift.after}</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="pt-4 border-t border-accent-blue/20">
-                  <p className="text-accent-blue font-bold text-lg">{shift.impact}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* The Practicing Leader */}
       <section className="py-20 lg:py-32 bg-background">
         <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
@@ -224,8 +170,62 @@ export default function AcademyPage() {
         </div>
       </section>
 
+      {/* The 10x Shift */}
+      <section className="py-20 lg:py-32 bg-background">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
+              The 10x Shift
+            </h2>
+            <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
+              Hoe teams door AI-adoptie hun productiviteit verveelvoudigen
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {tenXShifts.map((shift, index) => (
+              <div
+                key={index}
+                className="bg-surface-dark border border-accent-blue/30 rounded-2xl p-8 hover:border-accent-blue/50 transition-all duration-300 flex flex-col"
+              >
+                <h3 className="text-2xl font-bold text-accent-blue mb-6">
+                  {shift.title}
+                </h3>
+                <div className="space-y-4 mb-6 flex-grow">
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center mt-1">
+                      <svg className="w-4 h-4 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="text-sm text-foreground/60 font-medium">Voorheen</p>
+                      <p className="text-foreground/80">{shift.before}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-accent-blue/20 flex items-center justify-center mt-1">
+                      <svg className="w-4 h-4 text-accent-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="text-sm text-foreground/60 font-medium">Nu</p>
+                      <p className="text-foreground/80">{shift.after}</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-4 border-t border-accent-blue/20">
+                  <p className="text-accent-blue font-bold text-lg">{shift.impact}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* 4 Modules */}
-      <section id="bootcamp" className="py-20 lg:py-32 bg-background">
+      <section id="bootcamp" className="py-20 lg:py-32 bg-surface-dark">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
