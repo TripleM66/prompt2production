@@ -283,7 +283,7 @@ export default function AcademyPage() {
             ].map((result, index) => (
               <div
                 key={index}
-                className="bg-background border border-white/10 rounded-2xl p-8 text-center hover:border-accent-blue/50 transition-all duration-300"
+                className="bg-background border border-white/10 rounded-2xl p-8 text-center hover:border-accent-blue/50 transition-all duration-300 flex flex-col"
               >
                 <div className="w-16 h-16 mx-auto mb-6 bg-accent-blue/20 rounded-full flex items-center justify-center">
                   <svg className="w-8 h-8 text-accent-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -293,7 +293,7 @@ export default function AcademyPage() {
                 <h3 className="text-2xl font-bold text-foreground mb-3">
                   {result.title}
                 </h3>
-                <p className="text-foreground/70 leading-relaxed">
+                <p className="text-foreground/70 leading-relaxed flex-grow">
                   {result.description}
                 </p>
               </div>

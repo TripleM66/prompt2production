@@ -200,11 +200,11 @@ export default function SolutionsPage() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="bg-surface-dark border border-white/10 rounded-2xl p-8 hover:border-accent-orange/50 transition-all duration-300">
+            <div className="bg-surface-dark border border-white/10 rounded-2xl p-8 hover:border-accent-orange/50 transition-all duration-300 flex flex-col">
               <h3 className="text-2xl font-bold text-foreground mb-4">
                 Interim CTO
               </h3>
-              <p className="text-foreground/70 mb-6">
+              <p className="text-foreground/70 mb-6 flex-grow">
                 Strategische technische leiding voor je AI-transformatie en platform-evolutie.
               </p>
               <ul className="space-y-3">
@@ -224,11 +224,11 @@ export default function SolutionsPage() {
               </ul>
             </div>
 
-            <div className="bg-surface-dark border border-white/10 rounded-2xl p-8 hover:border-accent-orange/50 transition-all duration-300">
+            <div className="bg-surface-dark border border-white/10 rounded-2xl p-8 hover:border-accent-orange/50 transition-all duration-300 flex flex-col">
               <h3 className="text-2xl font-bold text-foreground mb-4">
                 Platform Replatforming
               </h3>
-              <p className="text-foreground/70 mb-6">
+              <p className="text-foreground/70 mb-6 flex-grow">
                 Van prototype naar productie-ready platforms met robuuste architectuur.
               </p>
               <ul className="space-y-3">
@@ -248,11 +248,11 @@ export default function SolutionsPage() {
               </ul>
             </div>
 
-            <div className="bg-surface-dark border border-white/10 rounded-2xl p-8 hover:border-accent-orange/50 transition-all duration-300">
+            <div className="bg-surface-dark border border-white/10 rounded-2xl p-8 hover:border-accent-orange/50 transition-all duration-300 flex flex-col">
               <h3 className="text-2xl font-bold text-foreground mb-4">
                 AI-Security & Compliance
               </h3>
-              <p className="text-foreground/70 mb-6">
+              <p className="text-foreground/70 mb-6 flex-grow">
                 Enterprise-grade security en compliance voor AI-implementaties.
               </p>
               <ul className="space-y-3">
