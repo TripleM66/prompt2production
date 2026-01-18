@@ -5,20 +5,20 @@ import BoardroomFAQ from '@/components/BoardroomFAQ';
 export default function SolutionsPage() {
   const operationalAreas = [
     {
-      title: "Technische strategie",
-      description: "Van tech-stack keuzes tot architectuur roadmaps die business-doelen ondersteunen."
+      title: "Technical due diligence",
+      description: "Help SaaS-founders 'audit-ready' te zijn voor exits of investeringen. VC's voeren in 2026 zware AI-audits uit."
     },
     {
-      title: "Product/platform besluitvorming",
-      description: "Data-gedreven beslissingen over build vs buy, replatforming en schaalbaarheid."
+      title: "The Turnaround CTO",
+      description: "Saneer inefficiënte AI-pilots uit 2024/2025 en herstel het vertrouwen tussen de boardroom en engineering."
     },
     {
-      title: "Procesverbetering",
-      description: "EOS-implementatie om tech, product en strategie te aligneren."
+      title: "Regulatory de-risking",
+      description: "Navigeer door de AI Act en word 100% compliant. Voorkom boetes en reputatieschade."
     },
     {
-      title: "Executive Problem Solving",
-      description: "Het herstellen van vertrouwen tussen boardroom en engineering teams."
+      title: "Fractional CTO",
+      description: "Los de 'Scale-Up Gap' op: €250k+ expertise zonder de full-time kosten. Onbetaalbaar technisch leiderschap, betaalbaar gemaakt."
     }
   ];
 

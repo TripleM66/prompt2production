@@ -32,14 +32,14 @@ export default function HeroSection() {
               <span className="text-accent-blue">Ontketen Innovatie</span>
             </h1>
             <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto min-h-[80px] flex items-center justify-center">
-              Professionaliseer vibecoding. Stop Shadow AI en transformeer je team naar gecertificeerde AI-architecten.
+              Professionaliseer vibecoding. Stop Shadow AI en PoC Purgatory. Transformeer je team naar gecertificeerde AI-architecten.
             </p>
             <div className="flex justify-center">
               <Link 
                 href="/academy"
                 className="inline-flex items-center px-8 py-4 border-2 border-accent-blue text-accent-blue font-semibold rounded-full hover:bg-accent-blue hover:text-background transition-all duration-300 shadow-[0_0_15px_rgba(0,102,255,0.3)] hover:shadow-[0_0_25px_rgba(0,102,255,0.5)] focus:outline-none focus:ring-2 focus:ring-accent-blue focus:ring-offset-2 focus:ring-offset-background"
               >
-                Start de innovatie-motor
+                Bekijk het certificeringsprogramma
                 <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -69,14 +69,14 @@ export default function HeroSection() {
               <span className="text-accent-orange">Bouw voor de Toekomst</span>
             </h1>
             <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto min-h-[80px] flex items-center justify-center">
-              Saneer technical debt en word 100% AI Act compliant met een Interim CTO.
+              Fix de 'AI Hangover'. Saneer technical debt, implementeer agentic workflows en word 100% AI Act compliant.
             </p>
             <div className="flex justify-center">
               <Link 
                 href="/solutions"
                 className="inline-flex items-center px-8 py-4 border-2 border-accent-orange text-accent-orange font-semibold rounded-full hover:bg-accent-orange hover:text-background transition-all duration-300 shadow-[0_0_15px_rgba(255,107,53,0.3)] hover:shadow-[0_0_25px_rgba(255,107,53,0.5)] focus:outline-none focus:ring-2 focus:ring-accent-orange focus:ring-offset-2 focus:ring-offset-background"
               >
-                Zekerheid bij schaalvergroting
+                Boek de Tech Health Check (€5.000)
                 <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
