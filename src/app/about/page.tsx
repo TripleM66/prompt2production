@@ -139,8 +139,9 @@ export default function AboutPage() {
 
               <div className="space-y-4 text-foreground/80 leading-relaxed flex-grow">
                 <p>
-                  Wanneer je groei sneller gaat dan je platform kan bijhouden, en je engineering team vastloopt 
-                  in technical debt, dan is het tijd voor een Interim CTO die het fundament herstelt.
+                  Marcel is de <strong className="text-accent-orange">Turnaround CTO</strong> die de 'AI Hangover' van 2024/2025 saneert. 
+                  Wanneer inefficiënte AI-pilots vastlopen en technical debt zich opstapelt, herstelt hij het fundament 
+                  en maakt organisaties 100% AI Act compliant.
                 </p>
                 <p>
                   Zijn unieke kracht: de combinatie van een wetenschappelijke basis (rigoureus systeemdenken) 
@@ -148,8 +149,9 @@ export default function AboutPage() {
                   complexe technische beslissingen te vertalen naar strategische business-keuzes.
                 </p>
                 <p>
-                  Hij herstelt het vertrouwen tussen boardroom en tech-teams door gebruik te maken van systemen 
-                  zoals EOS (Entrepreneurial Operating System) om tech, product en strategie uit te lijnen.
+                  Als <strong className="text-accent-orange">Fractional CTO</strong> lost hij de 'Scale-Up Gap' op: €250k+ expertise 
+                  zonder de full-time kosten. Hij herstelt het vertrouwen tussen boardroom en engineering door systemen 
+                  zoals EOS te implementeren.
                 </p>
               </div>
 
