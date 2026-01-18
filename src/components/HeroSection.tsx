@@ -26,12 +26,12 @@ export default function HeroSection() {
         
         {/* Content */}
         <div className="relative h-full flex flex-col justify-center items-center text-center px-8 lg:px-16 py-20 lg:py-32">
-          <div className="max-w-2xl mx-auto transition-transform duration-300 group-hover:scale-[1.02] flex flex-col h-full justify-center">
+          <div className="max-w-2xl mx-auto transition-transform duration-300 group-hover:scale-[1.02] flex flex-col justify-center min-h-[400px]">
             <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold text-foreground mb-6 leading-tight">
               The Prompt:<br />
               <span className="text-accent-blue">Ontketen Innovatie</span>
             </h1>
-            <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto flex-grow">
+            <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto min-h-[80px] flex items-center justify-center">
               Leer vibecoding en bouw razendsnel je eigen AI-tools.
             </p>
             <div className="flex justify-center">
@@ -63,12 +63,12 @@ export default function HeroSection() {
         
         {/* Content */}
         <div className="relative h-full flex flex-col justify-center items-center text-center px-8 lg:px-16 py-20 lg:py-32">
-          <div className="max-w-2xl mx-auto transition-transform duration-300 group-hover:scale-[1.02] flex flex-col h-full justify-center">
+          <div className="max-w-2xl mx-auto transition-transform duration-300 group-hover:scale-[1.02] flex flex-col justify-center min-h-[400px]">
             <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold text-foreground mb-6 leading-tight">
               The Production:<br />
               <span className="text-accent-orange">Bouw voor de Toekomst</span>
             </h1>
-            <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto flex-grow">
+            <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto min-h-[80px] flex items-center justify-center">
               Schaalbare enterprise-architectuur en veilige AI-implementaties door een ervaren CTO.
             </p>
             <div className="flex justify-center">
