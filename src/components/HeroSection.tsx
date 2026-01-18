@@ -26,23 +26,25 @@ export default function HeroSection() {
         
         {/* Content */}
         <div className="relative h-full flex flex-col justify-center items-center text-center px-8 lg:px-16 py-20 lg:py-32">
-          <div className="max-w-2xl mx-auto transition-transform duration-300 group-hover:scale-[1.02]">
+          <div className="max-w-2xl mx-auto transition-transform duration-300 group-hover:scale-[1.02] flex flex-col h-full justify-center">
             <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold text-foreground mb-6 leading-tight">
               The Prompt:<br />
               <span className="text-accent-blue">Ontketen Innovatie</span>
             </h1>
-            <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto">
+            <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto flex-grow">
               Leer vibecoding en bouw razendsnel je eigen AI-tools.
             </p>
-            <Link 
-              href="/academy"
-              className="inline-flex items-center px-8 py-4 border-2 border-accent-blue text-accent-blue font-semibold rounded-full hover:bg-accent-blue hover:text-background transition-all duration-300 shadow-[0_0_15px_rgba(0,102,255,0.3)] hover:shadow-[0_0_25px_rgba(0,102,255,0.5)] focus:outline-none focus:ring-2 focus:ring-accent-blue focus:ring-offset-2 focus:ring-offset-background"
-            >
-              Naar de Academy
-              <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </Link>
+            <div className="flex justify-center">
+              <Link 
+                href="/academy"
+                className="inline-flex items-center px-8 py-4 border-2 border-accent-blue text-accent-blue font-semibold rounded-full hover:bg-accent-blue hover:text-background transition-all duration-300 shadow-[0_0_15px_rgba(0,102,255,0.3)] hover:shadow-[0_0_25px_rgba(0,102,255,0.5)] focus:outline-none focus:ring-2 focus:ring-accent-blue focus:ring-offset-2 focus:ring-offset-background"
+              >
+                Naar de Academy
+                <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -61,23 +63,25 @@ export default function HeroSection() {
         
         {/* Content */}
         <div className="relative h-full flex flex-col justify-center items-center text-center px-8 lg:px-16 py-20 lg:py-32">
-          <div className="max-w-2xl mx-auto transition-transform duration-300 group-hover:scale-[1.02]">
+          <div className="max-w-2xl mx-auto transition-transform duration-300 group-hover:scale-[1.02] flex flex-col h-full justify-center">
             <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold text-foreground mb-6 leading-tight">
               The Production:<br />
               <span className="text-accent-orange">Bouw voor de Toekomst</span>
             </h1>
-            <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto">
+            <p className="text-lg lg:text-xl text-foreground/80 mb-8 leading-relaxed max-w-lg mx-auto flex-grow">
               Schaalbare enterprise-architectuur en veilige AI-implementaties door een ervaren CTO.
             </p>
-            <Link 
-              href="/solutions"
-              className="inline-flex items-center px-8 py-4 border-2 border-accent-orange text-accent-orange font-semibold rounded-full hover:bg-accent-orange hover:text-background transition-all duration-300 shadow-[0_0_15px_rgba(255,107,53,0.3)] hover:shadow-[0_0_25px_rgba(255,107,53,0.5)] focus:outline-none focus:ring-2 focus:ring-accent-orange focus:ring-offset-2 focus:ring-offset-background"
-            >
-              Ontdek Solutions
-              <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </Link>
+            <div className="flex justify-center">
+              <Link 
+                href="/solutions"
+                className="inline-flex items-center px-8 py-4 border-2 border-accent-orange text-accent-orange font-semibold rounded-full hover:bg-accent-orange hover:text-background transition-all duration-300 shadow-[0_0_15px_rgba(255,107,53,0.3)] hover:shadow-[0_0_25px_rgba(255,107,53,0.5)] focus:outline-none focus:ring-2 focus:ring-accent-orange focus:ring-offset-2 focus:ring-offset-background"
+              >
+                Ontdek Solutions
+                <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
